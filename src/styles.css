@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer-icon {
+  @apply fill-current text-white h-6 sm:h-8 mx-3 sm:mx-4 hover:text-black;
+}

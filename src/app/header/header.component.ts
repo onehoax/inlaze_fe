@@ -8,9 +8,13 @@ import { CommonModule } from '@angular/common';
   template: `
     <header>
       <div
-        class="h-16 bg-amber-900 rounded-b-xl shadow-lg shadow-stone-300 mx-2"
+        class="h-14 sm:h-16 bg-amber-900 rounded-b-xl shadow-lg shadow-stone-300"
       >
-        <h1 class="text-4xl font-bold text-orange-500 p-3">The Cocktail DB</h1>
+        <a target="_self" href="/">
+          <h1 class="text-2xl sm:text-4xl font-bold text-orange-500 p-3">
+            The Cocktail DB
+          </h1>
+        </a>
       </div>
     </header>
   `,
